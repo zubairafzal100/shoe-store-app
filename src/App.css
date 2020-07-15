@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+body {
+    text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home-img {
+    width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-img {
+    width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.card-img:hover {
+    opacity: 0.6;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.not-found {
+    margin: 100px 0;
+    font-size: 30px;
+}
+.product-container {
+    margin-top: 100px;
+    font-size: 30px;
+}
+.product-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.details-div {
+    width: 450px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-size: 18px;
+    box-shadow: 0 0 10px grey;
+    padding: 20px 30px;
+    color: #3f51b5;
+    text-decoration: none;
+}
+.details-div:hover {
+    background-color: #3f51b5;
+    color: #fff;
+}
+.info-div {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.info-div > h3 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.proItems-container {
+    margin: 100px 0;
+    font-size: 30px;
+}
+.proItems-details-div {
+    width: 60%;
+    margin: 60px auto;
+    font-size: 24px;
+    box-shadow: 0 0 10px grey;
+    padding: 20px 30px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 100px;
+}
+.proItems-info-div {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: -30px;
+}
+.proItems-info-div > h3 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.proItems-h1 {
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px 20px 20px 20px;
+    border-radius: 50px;
+    color: white;
+    background-color: #3f51b5;
+}
+.proItems-h2 {
+    margin-top: 100px;
+    font-size: 60px;
+}
+.footer {
+    width: 100%;
+    position: static;
+    bottom: 0;
 }
